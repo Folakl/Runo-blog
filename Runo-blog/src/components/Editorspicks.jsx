@@ -22,10 +22,10 @@ const Editorspicks = () => {
         }
     ]
   return (
-    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-0 md:gap-5 gap-8 my-10 mx-5' >
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-2 md:gap-5 gap-8 my-10 mx-5' >
        {image.map((one) => (
         <div key={one.id}>
-             <div className='lg:w-[500px] md:w-[350px] w-[350px] lg:h-[500px] md:h-[350px] h-[350px]  text-white ' style={
+             <div className='lg:w-[400px] md:w-[350px] w-[350px] lg:h-[400px] md:h-[350px] h-[350px]  text-white ' style={
                 {
                     backgroundImage: `url(${one.img})`,
                     backgroundRepeat: "no-repeat",
