@@ -20,7 +20,7 @@ const Aboutbackground = () => {
   
   <h3>Progressively incentivize cooperative systems through technically
      sound functionalities. The credibly productivate seamless data.</h3>
-    <h3 className='my-5 font-bold'>By Jennifer Lawrence</h3>
+    <h3 className='my-5 font-bold'>By Jennifer Lawrence.</h3>
 
   </div>
 </div>
