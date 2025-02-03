@@ -8,14 +8,14 @@ const SecondBackground = () => {
        <div>
                  <div>
                   <div className='text-white text-center' style={{backgroundImage:`url(${image2})`,
-                    backgroundSize: 'cove',
+                    backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     height:'100vh'
                 
                 }}>
               <div className='my-20'>
               <button className = "w-[80px] h-[30px] rounded-md mt-[200px] bg-[#535377] ">Fashion</button>
-                  <div className='pt-[50px]'>
+                  <div className='lg:pt-[50px] md:pt=[50px] pt-5'>
                <h3 className='text-[50px]  '>Richird Norton photorealistic <br /> rendering as real photos</h3>
                 <h3 className='mx-5' >Progressively incentivize cooperative systems through technically sound <br /> functionalities. The credibly productivate seamless data.</h3>
                 
