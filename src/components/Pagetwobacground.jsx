@@ -14,9 +14,9 @@ const Pagetwobacground = () => {
     }} >
         
       <Navbar/>
-      <div className='lg:mx-20 md:mx-20  my-[200px] lg:w-[700px] md:w-[500px] w-[400px]'>
+      <div className='lg:mx-20 md:mx-20  my-[200px] lg:w-[700px] md:w-[500px] w-[350px] mx-5'>
       <h3 className='w-[120px] text-center h-[30px] bg-[#c8c6c6] rounded-md'>ADVENTURE</h3>
-    <h3 className='my-5 lg:text-[50px] md:text-[50px] text-[30px] text-white'>Richird Norton photorealistic rendering as real photos</h3>
+    <h3 className='my-5 lg:text-[50px] md:text-[50px] text-[30px] text-white '>Richird Norton photorealistic rendering as real photos</h3>
     <div className='flex'>
       <h3>08.08.2021</h3>
       <h3>________</h3>

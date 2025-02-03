@@ -17,7 +17,7 @@ const Adventure = () => {
      <Navbar2/>
      <Populartopicstwo/>
      <Pagetwosecondbackground/>
-    <Editorspickstwo/>
+     <Editorspickstwo/>
       <Footer/>
     </div>
   )

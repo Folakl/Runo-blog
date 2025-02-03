@@ -77,7 +77,7 @@ const Populartopics = () => {
         key={one.id}>
             <img src = {one.Img} 
             alt={one.heading}
-            className='h-[350px] w-[350px] rounded-md' />
+            className='h-[300px] w-[300px] rounded-md' />
             <h3 className='text-[10px] my-3'>{one.date}</h3>
             <h3 className='text-[30px my-5 font-bold'>{one.heading}</h3>
             <h3 className='text-[10px]'>{one.subtopics}</h3>
@@ -85,7 +85,6 @@ const Populartopics = () => {
       ))
       }
       
-    
       
     </div>
   )

@@ -13,7 +13,7 @@ const Home = () => {
 
      <Backgroundone/>
       <div className='mx-10'>
-        <h3 className='text-[30px]'>Popular topics</h3>
+        <h3 className='text-[30px] pt-5'>Popular topics</h3>
       </div>
       <Navbar2/>
       <Populartopics/>
