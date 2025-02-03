@@ -33,7 +33,7 @@ const Editorspickstwo = () => {
                  </div>
                <div className='pt-20'>
                <h3 className='text-[15px] my-10 pt-5 pl-5'>08.08.2021</h3>
-                <h3 className='text-[25px] pl-5 w-[250px] lg:w-[400px] md:w-[300px]'>Richird Norton photorealistic rendering as real photos</h3>
+                <h3 className='text-[25px] pl-5 w-[300px] lg:w-[400px] md:w-[300px]'>Richird Norton photorealistic rendering as real photos</h3>
                  <h3 className='text-[15px] py-5 pl-5 w-[250px] '>Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</h3>
                </div>
              </div>
