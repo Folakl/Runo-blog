@@ -9,6 +9,8 @@ import productseven from '../assets/Blog Image (6).jpg'
 import producteight from '../assets/Blog Image (7).jpg'
 
 
+
+
 const Populartopics = () => {
     const topics =[
         {
