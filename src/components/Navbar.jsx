@@ -5,7 +5,6 @@ import Ig from '../assets/VectorIg.png';
 import youtube from '../assets/Vectoryoutube - Copy.png';
 import x from '../assets/VectorX.png';
 import pinterest from '../assets/VectorPinterest.png';
-import searchbar from '../assets/Search Line icon PNG and SVG Vector Free Download.jpeg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,10 +41,10 @@ const Navbar = () => {
       {/* Desktop Navigation */}
       <div className="lg:grid md:hidden hidden lg:grid-cols-2 md:grid-cols-2 grid-cols-1 pr-[50px]">
         <div className="flex lg:gap-8 md:gap-5 gap-5 ml-5 lg:mt-[10px] md:mt-[10px] mt-5">
-          <Link className="cursor-pointer" to="/">Home</Link>
-          <Link className="cursor-pointer" to="/About">About</Link>
-          <Link className="cursor-pointer" to="/Articles">Articles</Link>
-          <Link className="cursor-pointer" to="/Adventure">Contact</Link>
+          <Link className="cursor-pointer hover:text-[grey]" to="/">Home</Link>
+          <Link className="cursor-pointer hover:text-[grey]" to="/About">About</Link>
+          <Link className="cursor-pointer hover:text-[grey]" to="/Articles">Articles</Link>
+          <Link className="cursor-pointer hover:text-[grey]" to="/Adventure">Contact</Link>
         </div>
 
         {/* Icons Section */}
@@ -56,7 +55,9 @@ const Navbar = () => {
           <img src={youtube} className="w-[20px] h-[20px]" alt="YouTube" />
           <img src={pinterest} className="w-[20px] h-[20px]" alt="Pinterest" />
           <img src={Ig} className="w-[20px] h-[20px]" alt="Instagram" />
-          <img src={searchbar} className="w-[20px] h-[20px]" alt="Search" />
+          <ion-icon
+          name="search-outline"
+           className="w-[30px] h-[30px] cursor-pointer text-[grey] pb-5"></ion-icon>
         </div>
       </div>
 
@@ -80,7 +81,9 @@ const Navbar = () => {
           <img src={youtube} className="w-[20px] h-[20px]" alt="YouTube" />
           <img src={pinterest} className="w-[20px] h-[20px]" alt="Pinterest" />
           <img src={Ig} className="w-[20px] h-[20px]" alt="Instagram" />
-          <img src={searchbar} className="w-[20px] h-[20px]" alt="Search" />
+          <ion-icon
+          name="search-outline"
+           className="w-[30px] h-[30px] cursor-pointer"></ion-icon>
         </div>
       </div>
     </div>
