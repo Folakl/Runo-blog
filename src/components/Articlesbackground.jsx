@@ -7,7 +7,7 @@ const Articlesbackground = () => {
     <div style={{backgroundImage:`url(${Article})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: "cover",
-    height: '120vh'
+    height: '90vh'
      }} className=''>
       <Navbar/>
       <div className='flex justify-center my-[200px] '>

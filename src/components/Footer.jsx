@@ -42,7 +42,7 @@ const Footer = () => {
     </div>
   {/* Footer Footer */}
    <div className='bg-[#313132] h-[50px] items-center grid grid-cols-2 text-white'>
-     <div className='mx-5'>
+     <div className='px-5'>
       <h3>2008| RUNO publishers studio</h3>
      </div>
      <div className='flex justify-end mx-10'>
@@ -50,7 +50,7 @@ const Footer = () => {
      </div>
    </div>
     
-    </div>
+    </div>  
   )
 }
 

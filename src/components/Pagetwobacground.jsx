@@ -9,7 +9,7 @@ const Pagetwobacground = () => {
         backgroundImage:`url(${background})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        height:'100vh',
+        height:'90vh',
         color :'white'
     }} >
         
